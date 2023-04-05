@@ -1,13 +1,11 @@
 /* px to % is 1px x 6.25  */
 /* Decrease size of menu page/text */ 
-/* Change color of website menu */
-/* Grid Layout for "job classes" */
 /* Fix Last couple of Px */
 /* .menu-image and .menu reviews */
 /* Fix Class Captials and lower cases */
 /* Change font of ribben on menu */
-
-h1 {
+/* Hover effects for sign in/log in on menu */
+  h1 {
     font-size: 7vh;
     text-align: center;
     font-style: oblique;
@@ -20,8 +18,8 @@ h1 {
     margin-top: 1%;
     border-right: none;
     border-left: none;
-}
-h2 {
+  }
+  h2 {
     color: whitesmoke;
     text-align: center;
     font-size: 4vh;
@@ -30,12 +28,11 @@ h2 {
     float: right;
     font-family:'Courier New', Courier, monospace;
     text-decoration: underline;
-}
-.line {
+  }
+  .line {
     margin-top:8%;
     background-color: black;
     color: black;
-
   }
   .Login-Submit {                    
     font-size: 3vh;
@@ -72,7 +69,6 @@ h2 {
     justify-content: center;
     align-items: center;
   }
-  
   .login-content{
     font-size: 4vh;
     border: none;
@@ -83,7 +79,6 @@ h2 {
     width: 40vh;
     cursor: pointer;
   }
-  
   .login-form {
     display: flex;
     flex-direction: column;
@@ -192,17 +187,12 @@ h2 {
   .Menu-content {
     font-size: 4vh;
     border: none;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0,);
     border-radius: 1.2vh;
     width: 100%;
     height: 100%;
-
-
 }
-  .Menu-Reviews {
-
-  }
-  .button1 {
+ .button1 {
     font-size: 3vh;
     color: white;
     background-color: #04739e;
@@ -229,21 +219,54 @@ h2 {
     border-width: 0.5vh;
     
   }
-
   .Menu-image {
 
   }
-  p1 {
+  .container {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  .container-items {
+    font-size: 3.5vh;
+  }
+.citem1 {
 
-  }
-  p1 {
-    
-  }
-  p1 {
-    
-  }
-  img {
-    max-width: 45%;
-    min-width: 25%;
+}
+.citem2 {
 
-  }
+}
+.citem3 {
+
+}
+.menu-image {
+  height: 15vh;
+  width: 3vh;
+  margin-left: 30%;
+  padding-top: 10%;
+}
+img {
+  max-width: 45%;
+  min-width: 25%;
+
+}
+.container1 {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  
+}
+.c1item1 {
+
+}
+.citem2 {
+
+}
+.c1item3 {
+
+}
+
