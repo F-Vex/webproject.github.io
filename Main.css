@@ -219,7 +219,8 @@ h4 {
   border-width: 0.5vh;
   
 }
-.Menu-image {
+.menu-image {
+
 
 }
 .container {
@@ -230,7 +231,7 @@ h4 {
   align-items: center;
 }
 .container-items {
-  font-size: 3.5vh;
+  font-size: 3.4vh;
 }
 .citem1 {
 
@@ -248,8 +249,8 @@ margin-left: 30%;
 padding-top: 10%;
 }
 img {
-max-width: 45%;
-min-width: 25%;
+max-width: 400%;
+min-width: 400%;
 
 }
 .container1 {
